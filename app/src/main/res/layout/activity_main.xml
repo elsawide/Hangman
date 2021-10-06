@@ -7,11 +7,40 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/hangman_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hangman"
         android:textSize="32dp"
-         />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35" />
+
+    <Button
+        android:id="@+id/spela_spel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spela spel"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/om_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Om"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
