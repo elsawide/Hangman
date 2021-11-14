@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Hangman</string>
-
+    <string name="about_text">Programmerad av Elsa. WOHOO!!</string>
+    <string name="guesses_left">försök kvar</string>
+    <string name="guessed_letters"></string>
+    <string name="guess_letter">Gissa</string>
+    <string name="result">Du vann!</string>
+    <string name="correct_word">Rätta ordet var</string>
 </resources>

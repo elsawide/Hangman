@@ -14,7 +14,7 @@
     />
 
     <Button
-        android:id="@+id/spela_spel_button"
+        android:id="@+id/play_game_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Spela spel"
@@ -22,11 +22,11 @@
         />
 
     <Button
-        android:id="@+id/om_button"
+        android:id="@+id/about_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Om"
-        android:layout_below="@id/spela_spel_button"
+        android:layout_below="@id/play_game_button"
  />
 
 
